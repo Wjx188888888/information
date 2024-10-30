@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style: none;
+}
+
+/* header */
+.header{
+    width: 100%;
+}
+/* headtop */
+.headtopbox{
+    width: 100%;
+    background-color: #333E7C;
+}
+.headtop{
+    width: 1200px;
+    margin: auto;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+.headtop span{
+    font-weight: 300;
+}
+.headtop a{
+    color: #fff;
+    font-size: 13px;
+    padding: 0 15px;
+}
+
+.headtoprig input {
+    height: 24px;
+    font-size: 12px;
+    min-width: 190px;
+    max-width: 600px;
+    margin-top: -15px;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 2px;
+    border: 1px solid #e4e7ed;
+    box-sizing: border-box;
+}
+.headtoprig button{
+    box-sizing: border-box;
+    padding-left: 6px;
+    letter-spacing: 5px;
+    color: white;
+    height: 24px;
+    border: 0;
+    border-radius: 2px;
+    background-color: #1890FF;
+    position: relative;
+    top: 1px;
+    width: 53px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+/* logo */
+.logobox{
+    width: 100%;
+    background-color: #3D82F2;
+}
+.logo{
+    width: 1200px;
+    margin: auto;
+}
+.logo img{
+    width: 100%;
+}
+
+/* nav */
+.navbox{
+    width: 100%;
+    background-color: #4880D5;
+    height: 50px;
+    z-index: 9999;
+}
+.nav{
+    width: 1200px;
+    margin: auto;
+    height: 50px;
+}
+.nav .item{
+    float: left;
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    padding-left: 3px;
+    position: relative;
+}
+
+.nav li .nav_small{
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    padding: 0 17px 0 17px;
+    width: 76px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 14px;
+}
+.nav li .nav_small:hover{
+    background-color: #ED8232;
+}
+.nav .xiantiao {
+    font-size: 14px;
+    color: #29b399;
+    line-height: 50px;
+    display: block;
+    float: left;
+}
+/* .caidan>li{
+    display: none;
+}
+.caidan:hover{
+    display: block;
+} */
+/* banner */
+.banner{
+    width: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 10%;
+}  
+.swiper-slide img{
+    width: 100%;
+}
+
+/* content */
+/* .swiper {
+    width: 600px;
+    height: 300px;
+}   */
+.content{
+    width: 100%;
+    height: 485px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.contentbox{
+    width: 1200px;
+    margin: 15px auto;
+    height: 485px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contentle{
+    width: 870px;
+    height: 482px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contentleul{
+    border-bottom: #4880d5 thick solid;
+    width: 390px;
+    height: 454px;
+}
+
+.contentletop{
+    width: 390px;
+    height: 35px;
+    border-bottom: 1px solid #4880d5;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.contentletop div {
+    width: 90px;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+}
+.contentletop div span{
+    height: 14px;
+    width: 5px;
+    background-color: grey;
+}
+.contentletop div a{
+    font-weight: bold;
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 35px;
+    color: #acacac;
+}
+.contentletop div a.on{
+    color: #000;
+}
+.contentletop div span.on{
+    background-color: #4880d5;
+}
+.contentletop div:hover a{
+    color: #000;
+}
+.contentletop div:hover span{
+    background-color: #4880d5;
+}
+.contentletop2 div span.on{
+    background-color: #ed802d;
+}
+.contentletop2 div:hover span{
+    background-color: #ed802d;
+}
+.contentletop .more{
+    line-height: 35px;
+    color: #4880d5;
+    font-size: 14px;
+    margin-left: 155px;
+}
+
+.contentlecen{
+    width: 390px;
+    height: 220px;
+    margin: 15px 0;
+    margin-bottom: 10px;
+}
+.contentlecen img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.contentlebot{
+}
+.details {
+    line-height: 27px;
+    position: relative;
+}
+.details a{
+    font-size: 14px;
+}
+.time {
+    color: #9a9a9a;
+    position: absolute;
+    right: 0px;
+    font-size: 14px;
+    display: inline;
+}
+
+.contentrig{
+    width: 270px;
+    height: 330px;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+.contentrigbox{
+    width: 270px;
+    height: 460px;
+    float: left;
+    background: #dcdcdc;
+}
+
+.xczx {
+    width: 270px;
+    height: 28px;
+    padding-top: 7px;
+    border-bottom: 1px solid #ededed;
+    float: left;
+    color: #4880d5;
+}
+.xczx .xc_center {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.small_news {
+    width: 270px;
+    height: 150px;
+}
+.small_news .yaowen {
+    display: block;
+    padding: 3px 5px 0px 5px;
+    float: left;
+    font-size: 14px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+}
+.foottop{
+    width: 100%;
+    height: 221px;
+    background-color: #DCDCDC;
+}
+.foottopbox{
+    width: 1200px;
+    height: 221px;
+    background: #dcdcdc;
+    display: flex;
+    margin: 25px auto 0;
+}
+.foottopconbox{
+    width: 1200px;
+    margin-left: 35px;
+    display: flex;
+}
+.foottopconbox ul{
+    width: 240px;
+}
+.foottoptit {
+    height: 50px;
+    border-bottom: 1px solid #dcdcdc;
+    position: relative;
+}
+.foottoptit .sd_ico {
+    display: block;
+    width: 21px;
+    height: 21px;
+    background: url(../images/sd_ico.gif) no-repeat 0 0px;
+    position: absolute;
+    bottom: 7px;
+    left: 5px;
+}
+.foottoptit .kaosheng {
+    color: #000;
+    position: absolute;
+    top: 24px;
+    left: 33px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.link_list.top {
+    margin-top: 5px;
+}
+.link_list {
+    line-height: 23px;
+    padding-left: 13px;
+    font-size: 14px;
+}
+
+.footbottom{
+    width: 100%;
+    height: 100px;
+    background: #4880d5;
+}
+.footbot{
+    height: 100px;
+    margin: 0 auto;
+    background: #4880d5;
+    position: relative;
+    width: 1200px;
+}
+.foot_logo {
+    width: 50px;
+    height: 50px;
+    background: url(../images/foot_logo.png);
+    position: absolute;
+    top: 24px;
+    left: 21px;
+}
+.footer .copyright {
+    position: absolute;
+    top: 10px;
+    left: 490px;
+    color: #fff;
+}
+.footer .copyright ul {
+    line-height: 20px;
+    margin-top: 10px;
+}
+.footer .jsuniversity {
+    color: #fff;
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+}
+.list-paddingleft-2 p{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
